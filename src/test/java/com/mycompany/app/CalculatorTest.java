@@ -29,6 +29,19 @@ public class CalculatorTest
       // Assert
       assertEquals(expected, actual);
     }    
+
+    @Test
+    public void substract_TwoMinusTwo_ReturnsZero() {
+      // Arrange
+      final int expected = 0;
+  
+      // Act
+      final int actual = Calculator.substract(2, 2);
+  
+      // Assert
+      assertEquals(expected, actual);
+    }    
+    
     @Test
     public void multiply_FourTimesTwo_ReturnsEight() {
       // Arrange

@@ -10,6 +10,10 @@ public class Calculator
     return firstNumber + secondNumber;
   }
 
+  public static int substract(int firstNumber, int secondNumber) {
+    return firstNumber - secondNumber;
+  }
+
   public static int multiply(int multiplicand, int multiplier) {
     return multiplicand * multiplier;
   }
@@ -23,5 +27,11 @@ public class Calculator
   public static void main( String[] args )
   {
     System.out.println(Calculator.add(3, 3)); 
+    System.out.println(Calculator.substract(3, 3)); 
+    System.out.println(Calculator.multiply(3, 3)); 
+    System.out.println(Calculator.divide(3, 3)); 
+   
+  
   }
+
 }
